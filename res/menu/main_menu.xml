@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:id="@+id/add_course"
+          android:title="Add a course" 
+          android:showAsAction="ifRoom"/>
+	
+	<item android:id="@+id/add_lecture"
+          android:title="Add a Lecture" 
+          android:showAsAction="ifRoom"
+          android:visible="false" />
+</menu>

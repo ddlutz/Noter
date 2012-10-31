@@ -6,11 +6,13 @@
 
     <fragment android:name="info.majesticcomputing.noter.CoursesFragment"
         	  android:id="@+id/courses_fragment"
+        	  android:tag="CoursesFragment"
         	  android:layout_weight="1"
         	  android:layout_width="0dp"
         	  android:layout_height="match_parent" />
     
     <fragment android:name="info.majesticcomputing.noter.LecturesFragment"
+        	  android:tag="LecturesFragment"
         	  android:id="@+id/lectures_fragment"
         	  android:layout_weight="2"
         	  android:layout_width="0dp"
