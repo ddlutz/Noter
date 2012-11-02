@@ -2,6 +2,7 @@ package info.majesticcomputing.noter;
 import info.majesticcomputing.noter.CoursesFragment.OnCourseSelectedListener;
 import info.majesticcomputing.noter.LecturesFragment.ILectureFragmentHandler;
 import info.majesticcomputing.noter.R;
+import android.content.Intent;
 import android.os.*;
 import android.support.v4.app.*;
 import android.view.Menu;
@@ -63,6 +64,10 @@ public class MainActivity extends FragmentActivity implements OnCourseSelectedLi
         		cf.reDraw();
         		Toast.makeText(getApplicationContext(), "Redraw called", Toast.LENGTH_LONG).show();
         	}
+        }
+        if(item.getItemId() == R.id.add_note){
+        	Intent i = new Intent(this, NoteActivity.class);
+        	startActivity(i);
         }
         	
         return true;

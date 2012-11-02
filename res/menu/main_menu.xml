@@ -9,4 +9,7 @@
           android:title="Add a Lecture" 
           android:showAsAction="ifRoom"
           android:visible="false" />
+	<item android:id="@+id/add_note"
+	      android:title="Add a Note"
+	      android:showAsAction="ifRoom" />
 </menu>
